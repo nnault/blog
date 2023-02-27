@@ -84,3 +84,44 @@ input[type="submit"] {
     border-radius: 5px;
     border: none;
 }
+
+#ideas {
+    display: flex;
+    padding: 15px;
+}
+
+#ideas img {
+    width: 100%;
+}
+
+.relative {
+    position: relative;
+}
+
+.catagory-title {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.middle {
+    margin: 0 15px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #e5eoeo;
+    padding: 20px;
+}
+
+footer img {
+    max-width: 80px;
+}
+
+footer p {
+    font-size: 12px;
+}
